@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+
+  }
+  
+  p{
+
+    line-height: 20px;
+
+    text-align: center;
+
+}
+
+body{
+    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+
+    color: #000;
+
+    font-size: 25px;
+
+}
+  .section-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .background-section-one{
+    background-image: url(../assets/logo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .background-section-two{
+    background-image: url(../assets/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .background-section-three{
+    background-image: url(../assets/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  
+  
+  .card-container{
+    background-image: url(../assets/milka7.jpg);
+    border-radius: 25px;
+    padding: 200px;
+    max-width: 450px;
+  }
+  
+  input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 12px;
+    background: #684FA3;
+    color: #fff
+  }
+  
+  form{
+    display: grid;
+  }
+  
+  footer{
+    height: 150px;
+    padding: 25px;
+    text-align: center;
+    background-color: #684FA3;
+    color: #fff;
+  }
+  
